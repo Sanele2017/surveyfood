@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+
+    <script>
+        function goToFillOut() {
+            window.location.href = "http://localhost/onice/form.html";
+        }
+        function viewSurvey() {
+            window.location.href = "viewSurveyResult.php";
+        }
+    </script>
+</head>
+<body>
+    <style>
+        body {
+            background-image: url("http://thelistlove.com/wp-content/uploads/2014/12/dominos-pepperoni-pizza.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+    
+
+    <button class="fillbutton" onclick="goToFillOut()">Fill out survey</button> </br></br>
+    <button class="viewbutton" onclick="viewSurvey()">View survey results</button>
+
+</body>
+
+
+<style>
+    .fillbutton {
+  padding: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  
+  margin: 0;
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+}
+.viewbutton {
+  padding: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+
+</style>
+</html>
